@@ -1,0 +1,12 @@
+spring:
+  datasource:
+    druid:
+      filter:
+        nr-sql:
+          enabled: false
+          log-store: nr_mysql_log_tmp
+    type: com.alibaba.druid.pool.DruidDataSource
+
+my:
+  config:
+    fileType: test-yml
